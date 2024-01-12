@@ -1,0 +1,110 @@
+/* Additional inline CSS for the form */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #007acc;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+}
+
+header img {
+    max-width: 1000px; /* Adjust the logo size as needed */
+    height: auto; /* Maintain aspect ratio */
+}
+
+main {
+    text-align: center;
+    margin: 20px;
+}
+
+section {
+    background-color: #fff;
+    padding: 20px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+    display: inline-block;
+    text-align: left;
+    border-radius: 8px;
+}
+
+h1 {
+    font-size: 24px;
+}
+
+label {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: bold;
+}
+
+input[type="text"],
+input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+}
+
+input[type="submit"] {
+    background-color: #007acc;
+    color: #fff;
+    padding: 12px 24px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 18px;
+}
+
+input[type="submit"]:hover {
+    background-color: #005b9f;
+}
+
+/* Center the form */
+.form-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* Add some spacing */
+.form-container > * {
+    margin-bottom: 10px;
+}
+
+/* Style the navigation menu */
+nav ul {
+    list-style-type: none;
+    text-align: center;
+    background-color: #333;
+    padding: 10px 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li:last-child {
+    margin-right: 0;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 16px; /* Adjust the font size */
+    padding: 8px 12px; /* Add some padding for better clickability */
+}
+
+nav ul li a:hover {
+    background-color: #005b9f; /* Change background color on hover */
+    border-radius: 4px;
+    transition: background-color 0.3s; /* Add a smooth transition effect */
+}
